@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    container_name: legal-ai-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    environment:
+      - ALLOWED_ORIGINS=http://localhost:3000,http://localhost:80
+
+  frontend:
+    build: ./frontend
+    container_name: legal-ai-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
