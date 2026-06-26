@@ -160,6 +160,9 @@ docker-compose up --build
 ### Query 4 — Penalty Clauses
 **Input:** "Are there any late payment penalties?"
 
+<img width="1742" height="878" alt="image" src="https://github.com/user-attachments/assets/e44fca35-8122-496a-86ec-12e7260a17e7" />
+
+
 
 **Output:**
 > Yes. Section 7.3 specifies that invoices unpaid after 30 days accrue interest at **1.5% per month** (18% annually). The vendor may also suspend services after 45 days of non-payment with 5 days written notice.
