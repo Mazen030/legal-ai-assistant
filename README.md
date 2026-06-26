@@ -102,6 +102,7 @@ docker-compose up --build
 
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:8000
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f1ff20aa-3ffa-43c6-b653-3254ace277a5" />
 
 ---
 
@@ -123,6 +124,7 @@ docker-compose up --build
 
 ### Query 1 — Termination Clauses
 **Input:** "What are the termination clauses in this agreement?"
+<img width="1815" height="865" alt="image" src="https://github.com/user-attachments/assets/7e77f657-a918-4793-8098-4d08a77e040a" />
 
 **Output:**
 > According to Section 12 of the agreement, either party may terminate this contract with **30 days written notice**. Immediate termination is permitted in cases of material breach that remains uncured for 15 days after written notice, or upon insolvency of either party.
@@ -131,6 +133,8 @@ docker-compose up --build
 
 ### Query 2 — Key Obligations
 **Input:** "Summarize the key obligations of each party."
+<img width="1742" height="900" alt="image" src="https://github.com/user-attachments/assets/2f762147-d3a7-491e-9ef7-fef61c17902c" />
+
 
 **Output:**
 > **Client Obligations:**
@@ -155,6 +159,7 @@ docker-compose up --build
 
 ### Query 4 — Penalty Clauses
 **Input:** "Are there any late payment penalties?"
+
 
 **Output:**
 > Yes. Section 7.3 specifies that invoices unpaid after 30 days accrue interest at **1.5% per month** (18% annually). The vendor may also suspend services after 45 days of non-payment with 5 days written notice.
